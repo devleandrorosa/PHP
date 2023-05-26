@@ -9,10 +9,11 @@
 <body>
     <h2>SOMA</h2>
     <?php
-        $n1 = 2;
-        $n2 = 3;
+        $n1 = $_GET["a"];
+        $n2 = $_GET["b"];
         $s = $n1 + $n2;
-        echo "A some entre $n1 e $n2 é $s";
+        echo "A soma entre $n1 e $n2 é $s";
+        echo "<br/>Isso é matematica."
     ?>
 </body>
 </html>
