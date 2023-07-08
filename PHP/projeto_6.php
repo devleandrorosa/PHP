@@ -8,8 +8,8 @@
 <body>
         <?php
             $valor = $_GET["v"];
-            $rq = sqrt($valor);
-            echo "A raiz de $valor é igual a " . number_format($rq,2) . ".";
+            $raizquadrada = sqrt($valor);
+            echo "A raiz de $valor é igual a " . number_format($raizquadrada,2) . ".";
         ?>
         <a href="../../PHP/HTML/form.html">Voltar</a>
 </body>
